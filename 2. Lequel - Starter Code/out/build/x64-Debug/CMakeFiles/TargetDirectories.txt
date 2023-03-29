@@ -1,0 +1,5 @@
+C:/Users/santi/Downloads/2. Lequel - Starter Code (1)/2. Lequel - Starter Code/out/build/x64-Debug/CMakeFiles/main.dir
+C:/Users/santi/Downloads/2. Lequel - Starter Code (1)/2. Lequel - Starter Code/out/build/x64-Debug/CMakeFiles/main_test.dir
+C:/Users/santi/Downloads/2. Lequel - Starter Code (1)/2. Lequel - Starter Code/out/build/x64-Debug/CMakeFiles/test.dir
+C:/Users/santi/Downloads/2. Lequel - Starter Code (1)/2. Lequel - Starter Code/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/santi/Downloads/2. Lequel - Starter Code (1)/2. Lequel - Starter Code/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
