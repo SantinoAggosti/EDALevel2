@@ -86,8 +86,12 @@ int main(int, char *[])
     Languages languages;
 
     #ifdef TESTING
-    Text text = { "Editors of the English Wikipedia have pioneered some ideas as conventions, policies or features which were later adopted by Wikipedia editions in some of the other languages. These ideas include"};
+    Text text = { "HelLo", "Everybody"};
     TrigramProfile trigProf = buildTrigramProfile(text);
+    for (auto it : trigProf) {
+        cout << it.first << endl;
+        cout << it.second << endl;
+    }
     #endif
 
     if (!loadLanguagesData(languageCodeNames, languages))

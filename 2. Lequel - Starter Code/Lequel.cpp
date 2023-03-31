@@ -32,48 +32,50 @@ TrigramProfile buildTrigramProfile(const Text &text)
     wstring_convert<std::codecvt_utf8_utf16<wchar_t> > converter;
 
     //SANTINO
-    //Personlamente, se me ocurre iterar a lo largo de la lista de strings, accediendo al elemento en el que estoy parado, y a los dos siguientes, en el caso de que
-    //Alguno de los elementos sea cero, paso a la siguiente posicion de la lista e intento completar las tres letras. Asi hasta que se acaben las posiciones de la lista
-    //
+    // Breve analisis de codigo:
+    // el programa itera en n textos con m caracteres por texto, por lo tanto, realiza m*n iteraciones.
+    // Sin embargo, la logica principal se orienta a los caracteres, por lo que el algoritmo tiene 
+    // complejidad computacional O(m). 
+
+
     TrigramProfile trigramProfile;
-    map<std::string, float>::iterator aux_iterator;    // Iterador utilizado para mejorar la velocidad de busqueda de "emplace_hint". Es constante, dado que
-    string aux = "aaa";
+    string aux = "aaa"; // Se inicializa string auxiliar para gurdar los trigramas
+
 
     for (string str : text)
     {
+        int aux_index = 0;  // Indice de paso de string auxiliar
+
         wstring auxiliar_wString = converter.from_bytes(aux);
         wstring unicodeString = converter.from_bytes(str);
 
-        int reading_index = 0;
-        int unicode_index = 0;
+        for (int i = 0; i < unicodeString.length(); i++) {   //Como no se cuantas letras hay por string, debo seguir iterando hasta encontrarme con un terminador.
 
-        while (unicodeString[unicode_index] != 0) {   //Como no se cuantas letras hay por string, debo seguir iterando hasta encontrarme con un terminador.
+            if (iswupper(unicodeString[i])) {   // Si es una mayuscula, entonces la cambio a minuscula para considerarla igual a su trigrama designado
+                unicodeString[i] = towlower(unicodeString[i]);
+            }
 
-            auxiliar_wString[reading_index] = unicodeString[unicode_index];  // En el caso de que no se llege a la longitud de 3 caracteres, no se entra al while loop, y por ende se termina.
-            
-            reading_index++;
-            unicode_index++;
+            if (iswpunct(unicodeString[i])) {   // Si es algun tipo de puntuacion, la ignoro y paso a la siguiente letra.
+                continue;
+            }
 
-            if (reading_index % 3 == 0) {   // Si ya se leyeron tres caracteres
+            auxiliar_wString[aux_index] = unicodeString[i];  // En el caso de que no se llege a la longitud de 3 caracteres, no se entra al while loop, y por ende se termina.
+            aux_index++;
+
+            if (aux_index % 3 == 0) {   // Si ya se leyeron tres caracteres
                 string trigram_string = converter.to_bytes(auxiliar_wString);   // se vuelve a pasar el valor a un string
 
 
                 if (trigramProfile.count(trigram_string)) {
                     trigramProfile.at(trigram_string)++;  // Aumento el valor de la clave del trigrama encontrado
                     
-
                 }
                 else {
                     trigramProfile.emplace(trigram_string, 1); // Creacion de Nuevo Trigrama con contador 1
                 }
 
-                #ifdef TESTING
-                cout << trigram_string << endl;
-                cout << trigramProfile.at(trigram_string) << endl;
-                #endif
-
-                reading_index = 0;
-                unicode_index -= 2;
+                aux_index = 0;
+                i -= 2;
             }
         }
     }

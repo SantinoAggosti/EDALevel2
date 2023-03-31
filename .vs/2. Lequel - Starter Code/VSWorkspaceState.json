@@ -2,7 +2,9 @@
   "OutputFoldersPerTargetSystem": {
     "Local Machine": [
       "2. Lequel - Starter Code\\out\\build\\x64-Debug",
-      "2. Lequel - Starter Code\\out\\install\\x64-Debug"
+      "2. Lequel - Starter Code\\out\\install\\x64-Debug",
+      "2. Lequel - Starter Code\\out\\build\\x64-Release",
+      "2. Lequel - Starter Code\\out\\install\\x64-Release"
     ]
   }
 }

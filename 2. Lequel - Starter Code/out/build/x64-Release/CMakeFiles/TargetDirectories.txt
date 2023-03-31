@@ -1,0 +1,5 @@
+C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/CMakeFiles/main.dir
+C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/CMakeFiles/main_test.dir
+C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/CMakeFiles/test.dir
+C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
