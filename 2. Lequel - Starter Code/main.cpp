@@ -17,7 +17,7 @@
 #include "CSVData.h"
 #include "Lequel.h"
 
-#define TESTING 1
+#define TESTING 2
 
 using namespace std;
 

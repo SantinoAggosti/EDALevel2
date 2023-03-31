@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\DOCUMENTS\GITHUB\EDALEVEL2\BUILD\CMAKEFILES\EF2741AC757CED1179E6B805DAF812AE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Usuario/Documents/GitHub/EDALevel2/2. Lequel - Starter Code" -BC:/Users/Usuario/Documents/GitHub/EDALevel2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Usuario/Documents/GitHub/EDALevel2/build/main.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
