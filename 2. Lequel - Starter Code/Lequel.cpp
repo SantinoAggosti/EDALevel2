@@ -104,8 +104,19 @@ void normalizeTrigramProfile(TrigramProfile &trigramProfile)
 float getCosineSimilarity(TrigramProfile &textProfile, TrigramProfile &languageProfile)
 {
     // Your code goes here...
+    float CosineSimilarity = 0.0;
+        string trigram;
 
-    return 0; // Replace...
+    for (auto iter : textProfile)
+    {
+        trigram = iter.first;
+
+        if (languageProfile.count(trigram)) 
+        {
+            CosineSimilarity += iter.second * languageProfile.at(trigram);
+        }
+    }
+    return CosineSimilarity; 
 }
 
 /**
