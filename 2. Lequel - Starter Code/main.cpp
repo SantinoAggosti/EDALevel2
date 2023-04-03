@@ -84,16 +84,22 @@ int main(int, char *[])
 {
     map<string, string> languageCodeNames;
     Languages languages;
-
+    /*
     #ifdef TESTING
-    Text text = { "HelLo", "Everybody"};
+    // Testeo de Santino
+    Text text = { "HelloHelloHello", "Everybody"};
+
+    // Testeo de Alfie
     TrigramProfile trigProf = buildTrigramProfile(text);
+    normalizeTrigramProfile(trigProf);
     for (auto it : trigProf) {
         cout << it.first << endl;
         cout << it.second << endl;
     }
+    // Testeo de Vasco
+    cout << getCosineSimilarity(trigProf, trigProf) << endl;
     #endif
-
+    */
     if (!loadLanguagesData(languageCodeNames, languages))
     {
         cout << "Could not load trigram data." << endl;

@@ -31,7 +31,6 @@ TrigramProfile buildTrigramProfile(const Text &text)
 {
     wstring_convert<std::codecvt_utf8_utf16<wchar_t> > converter;
 
-    //SANTINO
     // Breve analisis de codigo:
     // el programa itera en n textos con m caracteres por texto, por lo tanto, realiza m*n iteraciones.
     // Sin embargo, la logica principal se orienta a los caracteres, por lo que el algoritmo tiene 
@@ -87,9 +86,29 @@ TrigramProfile buildTrigramProfile(const Text &text)
  * 
  * @param trigramProfile The trigram profile.
  */
-void normalizeTrigramProfile(TrigramProfile &trigramProfile)
+void normalizeTrigramProfile(TrigramProfile& trigramProfile)
 {
-    // Your code goes here...
+    /*SANTIAGO
+    Breve analisis de codigo:
+    Se elevan todas las frecuencias al cuadrado para luego ser sumadas y almacenadas en SumCuad.
+    Luego se calcula la raiz de SumCuad (sqrtf) para usar este valor como divisor de cada frecuencia (normalizarlas).
+    Finalmente es cargada cada frecuencia normalizada nuevamente en TrigramProfile.
+    Observación el operador & del segundo "for" permite modificar el contenido de los elementos de TrigramProfile.
+    */
+
+    float aux = 0;
+
+    for (auto elementNumber : trigramProfile)
+    {
+        aux += (elementNumber.second * elementNumber.second);
+    }
+
+    aux = sqrtf(aux);
+
+    for (auto& elementNumber : trigramProfile)
+    {
+        elementNumber.second = (elementNumber.second / aux);
+    }
 
     return;
 }
@@ -126,9 +145,26 @@ float getCosineSimilarity(TrigramProfile &textProfile, TrigramProfile &languageP
  * @param languages A list of Language objects
  * @return string The language code of the most likely language
  */
-string identifyLanguage(const Text &text, Languages &languages)
-{
-    // Your code goes here...
 
-    return ""; // Replace...
+string identifyLanguage(const Text& text, Languages& languages)
+{
+    TrigramProfile textTrigramProfile;
+
+    textTrigramProfile = buildTrigramProfile(text);
+    normalizeTrigramProfile(textTrigramProfile);
+
+    float MostSimilarValue = 0.0;           // podriamos crear un typedef para estos 2
+    string MostSimilarLanguage = "aaa";
+
+    for (auto language : languages)
+    {
+        float CosineSimilarity = getCosineSimilarity(textTrigramProfile, language.trigramProfile);
+        if (CosineSimilarity > MostSimilarValue)
+        {
+            MostSimilarValue = CosineSimilarity;
+            MostSimilarLanguage = language.languageCode;
+        }
+    }
+
+    return MostSimilarLanguage;
 }
