@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code
+# Install script for directory: C:/Users/santi/OneDrive/Escritorio/EDALevel2/2. Lequel - Starter Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/install/x64-Release")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/santi/OneDrive/Escritorio/EDALevel2/2. Lequel - Starter Code/out/install/x64-Release")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/santi/OneDrive/Escritorio/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

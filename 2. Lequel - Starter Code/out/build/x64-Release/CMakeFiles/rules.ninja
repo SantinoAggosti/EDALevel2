@@ -65,7 +65,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code" -B"C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release"
+  command = "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code" -B"C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release"
   description = Re-running CMake...
   generator = 1
 

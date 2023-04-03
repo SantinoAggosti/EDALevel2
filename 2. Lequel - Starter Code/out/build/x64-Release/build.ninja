@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\out\build\x64-Release\
+cmake_ninja_workdir = C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\out\build\x64-Release\
 # =============================================================================
 # Object build statements for EXECUTABLE target main
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Leque
 
 build cmake_object_order_depends_target_main: phony || CMakeFiles\main.dir
 
-build CMakeFiles\main.dir\main.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\main.cpp || cmake_object_order_depends_target_main
+build CMakeFiles\main.dir\main.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\main.cpp || cmake_object_order_depends_target_main
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   INCLUDES = -IC:\dev\vcpkg\installed\x64-windows\include
   OBJECT_DIR = CMakeFiles\main.dir
@@ -57,7 +57,7 @@ build CMakeFiles\main.dir\main.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Us
   TARGET_COMPILE_PDB = CMakeFiles\main.dir\
   TARGET_PDB = main.pdb
 
-build CMakeFiles\main.dir\CSVData.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\CSVData.cpp || cmake_object_order_depends_target_main
+build CMakeFiles\main.dir\CSVData.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\CSVData.cpp || cmake_object_order_depends_target_main
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   INCLUDES = -IC:\dev\vcpkg\installed\x64-windows\include
   OBJECT_DIR = CMakeFiles\main.dir
@@ -65,7 +65,7 @@ build CMakeFiles\main.dir\CSVData.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:
   TARGET_COMPILE_PDB = CMakeFiles\main.dir\
   TARGET_PDB = main.pdb
 
-build CMakeFiles\main.dir\Text.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\Text.cpp || cmake_object_order_depends_target_main
+build CMakeFiles\main.dir\Text.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\Text.cpp || cmake_object_order_depends_target_main
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   INCLUDES = -IC:\dev\vcpkg\installed\x64-windows\include
   OBJECT_DIR = CMakeFiles\main.dir
@@ -73,7 +73,7 @@ build CMakeFiles\main.dir\Text.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Us
   TARGET_COMPILE_PDB = CMakeFiles\main.dir\
   TARGET_PDB = main.pdb
 
-build CMakeFiles\main.dir\Lequel.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\Lequel.cpp || cmake_object_order_depends_target_main
+build CMakeFiles\main.dir\Lequel.cpp.obj: CXX_COMPILER__main_RelWithDebInfo C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\Lequel.cpp || cmake_object_order_depends_target_main
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   INCLUDES = -IC:\dev\vcpkg\installed\x64-windows\include
   OBJECT_DIR = CMakeFiles\main.dir
@@ -94,7 +94,7 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_RelWithDebInfo CMakeFiles\main.dir\m
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = C:\dev\vcpkg\installed\x64-windows\lib\raylib.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\main.dir
-  POST_BUILD = cmd.exe /C "cd /D "C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/main.exe" -installedDir C:/dev/vcpkg/installed/x64-windows/bin -OutVariable out"
+  POST_BUILD = cmd.exe /C "cd /D "C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/santi/OneDrive/Escritorio/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/main.exe" -installedDir C:/dev/vcpkg/installed/x64-windows/bin -OutVariable out"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\main.dir\
   TARGET_FILE = main.exe
@@ -110,28 +110,28 @@ build main.exe: CXX_EXECUTABLE_LINKER__main_RelWithDebInfo CMakeFiles\main.dir\m
 
 build cmake_object_order_depends_target_main_test: phony || CMakeFiles\main_test.dir
 
-build CMakeFiles\main_test.dir\main_test.cpp.obj: CXX_COMPILER__main_test_RelWithDebInfo C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\main_test.cpp || cmake_object_order_depends_target_main_test
+build CMakeFiles\main_test.dir\main_test.cpp.obj: CXX_COMPILER__main_test_RelWithDebInfo C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\main_test.cpp || cmake_object_order_depends_target_main_test
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   OBJECT_DIR = CMakeFiles\main_test.dir
   OBJECT_FILE_DIR = CMakeFiles\main_test.dir
   TARGET_COMPILE_PDB = CMakeFiles\main_test.dir\
   TARGET_PDB = main_test.pdb
 
-build CMakeFiles\main_test.dir\CSVData.cpp.obj: CXX_COMPILER__main_test_RelWithDebInfo C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\CSVData.cpp || cmake_object_order_depends_target_main_test
+build CMakeFiles\main_test.dir\CSVData.cpp.obj: CXX_COMPILER__main_test_RelWithDebInfo C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\CSVData.cpp || cmake_object_order_depends_target_main_test
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   OBJECT_DIR = CMakeFiles\main_test.dir
   OBJECT_FILE_DIR = CMakeFiles\main_test.dir
   TARGET_COMPILE_PDB = CMakeFiles\main_test.dir\
   TARGET_PDB = main_test.pdb
 
-build CMakeFiles\main_test.dir\Text.cpp.obj: CXX_COMPILER__main_test_RelWithDebInfo C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\Text.cpp || cmake_object_order_depends_target_main_test
+build CMakeFiles\main_test.dir\Text.cpp.obj: CXX_COMPILER__main_test_RelWithDebInfo C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\Text.cpp || cmake_object_order_depends_target_main_test
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   OBJECT_DIR = CMakeFiles\main_test.dir
   OBJECT_FILE_DIR = CMakeFiles\main_test.dir
   TARGET_COMPILE_PDB = CMakeFiles\main_test.dir\
   TARGET_PDB = main_test.pdb
 
-build CMakeFiles\main_test.dir\Lequel.cpp.obj: CXX_COMPILER__main_test_RelWithDebInfo C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\Lequel.cpp || cmake_object_order_depends_target_main_test
+build CMakeFiles\main_test.dir\Lequel.cpp.obj: CXX_COMPILER__main_test_RelWithDebInfo C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\Lequel.cpp || cmake_object_order_depends_target_main_test
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG
   OBJECT_DIR = CMakeFiles\main_test.dir
   OBJECT_FILE_DIR = CMakeFiles\main_test.dir
@@ -151,7 +151,7 @@ build main_test.exe: CXX_EXECUTABLE_LINKER__main_test_RelWithDebInfo CMakeFiles\
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\main_test.dir
-  POST_BUILD = cmd.exe /C "cd /D "C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/main_test.exe" -installedDir C:/dev/vcpkg/installed/x64-windows/bin -OutVariable out"
+  POST_BUILD = cmd.exe /C "cd /D "C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/santi/OneDrive/Escritorio/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release/main_test.exe" -installedDir C:/dev/vcpkg/installed/x64-windows/bin -OutVariable out"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\main_test.dir\
   TARGET_FILE = main_test.exe
@@ -163,7 +163,7 @@ build main_test.exe: CXX_EXECUTABLE_LINKER__main_test_RelWithDebInfo CMakeFiles\
 # Utility command for test
 
 build CMakeFiles\test.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe" --force-new-ctest-process "
+  COMMAND = cmd.exe /C "cd /D "C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe" --force-new-ctest-process "
   DESC = Running tests...
   pool = console
   restat = 1
@@ -175,7 +175,7 @@ build test: phony CMakeFiles\test.util
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -186,7 +186,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code" -B"C:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code" -B"C:\Users\santi\OneDrive\Escritorio\EDALevel2\2. Lequel - Starter Code\out\build\x64-Release""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -206,7 +206,7 @@ build main_test: phony main_test.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/santi/Documents/GITHUB/mapss/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release
+# Folder: C:/Users/santi/OneDrive/Escritorio/EDALevel2/2. Lequel - Starter Code/out/build/x64-Release
 
 build all: phony main.exe main_test.exe
 
@@ -222,14 +222,14 @@ build all: phony main.exe main_test.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\CMakeLists.txt C$:\dev\vcpkg\installed\x64-windows\share\raylib\raylib-config-version.cmake C$:\dev\vcpkg\installed\x64-windows\share\raylib\raylib-config.cmake C$:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake CMakeCache.txt CMakeFiles\3.25.1-msvc1\CMakeCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\CMakeLists.txt C$:\dev\vcpkg\installed\x64-windows\share\raylib\raylib-config-version.cmake C$:\dev\vcpkg\installed\x64-windows\share\raylib\raylib-config.cmake C$:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake CMakeCache.txt CMakeFiles\3.25.1-msvc1\CMakeCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\santi\Documents\GITHUB\mapss\EDALevel2\2.$ Lequel$ -$ Starter$ Code\CMakeLists.txt C$:\dev\vcpkg\installed\x64-windows\share\raylib\raylib-config-version.cmake C$:\dev\vcpkg\installed\x64-windows\share\raylib\raylib-config.cmake C$:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake CMakeCache.txt CMakeFiles\3.25.1-msvc1\CMakeCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake: phony
+build C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\FindPkgConfig.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake C$:\Users\santi\OneDrive\Escritorio\EDALevel2\2.$ Lequel$ -$ Starter$ Code\CMakeLists.txt C$:\dev\vcpkg\installed\x64-windows\share\raylib\raylib-config-version.cmake C$:\dev\vcpkg\installed\x64-windows\share\raylib\raylib-config.cmake C$:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake CMakeCache.txt CMakeFiles\3.25.1-msvc1\CMakeCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeCXXCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeRCCompiler.cmake CMakeFiles\3.25.1-msvc1\CMakeSystem.cmake: phony
 
 
 #############################################
