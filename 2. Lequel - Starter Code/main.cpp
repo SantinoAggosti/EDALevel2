@@ -17,8 +17,6 @@
 #include "CSVData.h"
 #include "Lequel.h"
 
-#define TESTING 2
-
 using namespace std;
 
 const string LANGUAGECODE_NAMES_FILE = "resources/languagecode_names_es.csv";
