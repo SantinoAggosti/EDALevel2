@@ -22,9 +22,10 @@ using namespace std;
  * @return true Succeeded
  * @return false Failed
  */
+
 bool readCSV(const string path, CSVData &data)
 {
-    ifstream file(path);
+    ifstream file(path, ios::binary);
 
     if (!file.is_open())
         return false;
